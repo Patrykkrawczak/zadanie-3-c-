@@ -91,7 +91,7 @@ namespace WindowsFormsApp3
 
                 n = Math.Pow(10, j + 1);
                 old_i = 0;
-                for (double i = 0.0F; i <= 100.0; i = i + 100F / n)
+                for (double i = single.X1; i <= single.X2; i = i + 100F / n)
                 {
 
                     licz += 1;
